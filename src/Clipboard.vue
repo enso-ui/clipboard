@@ -1,7 +1,6 @@
 <template>
     <input class="clipboard-input"
-        readonly
-        :value="value">
+        readonly>
 </template>
 
 <script>
@@ -9,10 +8,6 @@ export default {
     name: 'Clipboard',
 
     props: {
-        value: {
-            type: [String, Number],
-            required: true,
-        },
         maxLength: {
             type: Number,
             default: 99999,
@@ -26,7 +21,8 @@ export default {
     },
 
     methods: {
-        copy() {
+        copy(value) {
+            this.$el.value = value;
             this.select();
 
             return document.execCommand('copy');
