@@ -7,6 +7,8 @@
 export default {
     name: 'Clipboard',
 
+    inject: ['i18n'],
+
     props: {
         maxLength: {
             type: Number,
@@ -24,8 +26,9 @@ export default {
         copy(value) {
             this.$el.value = value;
             this.select();
+            document.execCommand('copy');
 
-            return document.execCommand('copy');
+            this.$toastr.success(this.i18n('Copied to clipboard'));
         },
         select() {
             if (this.iOS) {
