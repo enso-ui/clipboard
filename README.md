@@ -1,7 +1,7 @@
 # Clipboard
 
-[![License](https://poser.pugx.org/laravel-enso/clipboard/license)](https://packagist.org/packages/laravel-enso/clipboard)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/clipboard/version)](https://packagist.org/packages/laravel-enso/clipboard)
+[![License](https://poser.pugx.org/enso-ui/clipboard/license)](https://packagist.org/packages/enso-ui/clipboard)
+[![Latest Stable Version](https://poser.pugx.org/enso-ui/clipboard/version)](https://packagist.org/packages/enso-ui/clipboard)
 
 Element Resize Detector
 
