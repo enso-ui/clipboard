@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/clipboard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple vue clipboard copy",
   "main": "index.js",
   "scripts": {
