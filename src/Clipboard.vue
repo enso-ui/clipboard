@@ -59,10 +59,12 @@ export default {
 </script>
 
 <style lang="scss">
-    .clipboard-input {
-        position:fixed;
-        pointer-events:none;
-        z-index:-9999;
-        opacity:0;
-    }
+.clipboard-input {
+    position: fixed;
+    pointer-events: none;
+    z-index: -9999;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
 </style>
