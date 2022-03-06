@@ -25,15 +25,15 @@ export default {
             this.$el.value = value;
             this.select();
 
-            return document.execCommand('copy');
+            console.log('aici');
+            document.execCommand('copy');
         },
         select() {
             if (this.iOS) {
                 this.selectOnTouch();
-                return;
+            } else {
+                this.$el.select();
             }
-
-            this.$el.select();
         },
         selectOnTouch() {
             const { contentEditable, readOnly } = this.$el;
@@ -64,7 +64,7 @@ export default {
     pointer-events: none;
     z-index: -9999;
     opacity: 0;
-    width: 0;
-    height: 0;
+    width: 1;
+    height: 1;
 }
 </style>
