@@ -63,7 +63,5 @@ export default {
     pointer-events: none;
     z-index: -9999;
     opacity: 0;
-    width: 1px;
-    height: 1px;
 }
 </style>
