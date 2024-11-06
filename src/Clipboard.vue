@@ -1,5 +1,6 @@
 <template>
     <input class="clipboard-input"
+        tabindex="-1"
         readonly>
 </template>
 
@@ -59,6 +60,7 @@ export default {
 
 <style lang="scss">
 .clipboard-input {
+    height: 1px;
     position: fixed;
     pointer-events: none;
     z-index: -9999;
