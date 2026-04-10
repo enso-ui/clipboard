@@ -25,7 +25,7 @@ export default {
         copy(value) {
             this.$el.value = value;
             this.select();
-            
+
             document.execCommand('copy');
         },
         select() {
