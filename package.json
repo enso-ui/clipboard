@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/clipboard",
-  "version": "2.0.12",
+  "version": "3.0.0",
   "description": "Simple vue clipboard copy",
   "main": "src/Clipboard.vue",
   "repository": {
