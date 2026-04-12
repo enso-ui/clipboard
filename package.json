@@ -17,7 +17,10 @@
     "url": "https://github.com/enso-ui/clipboard/issues"
   },
   "homepage": "https://github.com/enso-ui/clipboard#readme",
-  "dependencies": {
-    "vue": "^3.0"
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.0"
   }
 }
