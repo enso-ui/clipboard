@@ -1,7 +1,7 @@
 {
   "name": "@enso-ui/clipboard",
   "version": "3.1.1",
-  "description": "Simple vue clipboard copy",
+  "description": "Hidden clipboard helper component for Enso UI.",
   "main": "src/Clipboard.vue",
   "repository": {
     "type": "git",
