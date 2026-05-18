@@ -61,6 +61,10 @@ export default {
 <style lang="scss">
 .clipboard-input {
     height: 1px;
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: 0;
     position: fixed;
     pointer-events: none;
     z-index: -9999;
